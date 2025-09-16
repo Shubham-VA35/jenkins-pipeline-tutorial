@@ -9,6 +9,7 @@ pipeline {
         stage('Compile') {
             steps {
                 echo 'Compile the source code' 
+                echo 'HEy Im shubham'
             }
         }
         stage('Security Check') {
